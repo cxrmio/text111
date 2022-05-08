@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	a:link {/* link是未访问的链接*/
+		font-size: 16px;
+		color: gray;
+		font-weight: 700;
+	}
+	a:hover{/*鼠标移动到链接上*/
+		color: red;
+	}
+	li:first-child{/*结构伪类选择器*/
+		color:pink;
+	}
+	li:last-child{
+		color: green;
+	}
+	li:nth-child(3){
+		color: purple;
+	}
+	：target{ /*目标伪类选择器，可用于描点定位，选取当前活动的目标元素*/
+		color: red;
+		font-size: 30px;
+	}
+	</style>
+</head>
+<body>
+	<div><a href="#">秒杀</a></div>
+	<ul>
+		<li>第一个孩子</li>
+		<li>第二个孩子</li>
+		<li>第三个孩子</li>
+		<li>第四个孩子</li>
+		<li>第五个孩子</li>
+
+	</ul>
+</body>
+</html>
